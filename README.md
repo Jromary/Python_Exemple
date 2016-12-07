@@ -1,2 +1,2 @@
 # Python_Exemple
-exemple de conte python
+exemple de code python
