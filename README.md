@@ -9,5 +9,5 @@ Il contient également un dossier `python_c_algorithms` qui contient des program
 
 + Julien ROMARY, propriétaire,  
   Faculté des Sciences de Nancy (Licence Informatique)
-+ Thomas BAGREL, collaborateur,
++ Thomas BAGREL, collaborateur,  
   Lycée Henry Poincaré (MPSI)
