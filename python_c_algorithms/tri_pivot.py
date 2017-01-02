@@ -9,7 +9,6 @@ from random import randint
 
 def tri_pivot(liste):
     n = len(liste)
-    assert(n != 0)
     elt_tri = liste[randint(0, n - 1)]
     (tab_inf, tab_egal, tab_sup) = ([], [], [])
     for elt in liste:
