@@ -13,3 +13,16 @@ def afficher_temps(fonction):
         print("Temps écoulé : {}".format(t_fin - t_depart))
         return valeur_retournee
     return fonction_modifiee
+
+def no_closing_console(fonction):
+    def fonction_modifiee():
+        valeur_retournee = None
+        try:
+            valeur_retournee = fonction()
+        except:
+            print("\n--> Erreur")
+        finally:
+            input("\nAppuyez sur une touche pour quitter...")
+        return valeur_retournee
+    return fonction_modifiee
+

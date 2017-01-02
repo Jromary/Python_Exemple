@@ -7,15 +7,23 @@ import decorateur
 
 # Déclaration des fonctions
 
-# Fonction Main
-
 @decorateur.afficher_temps
-def main():
+def test1():
     print("Hello World!")
     total = 0.0
     for i in range(1, 100000 + 1):
         total += i ** 2 / i ** 1.5
     print("Finished!")
+
+@decorateur.no_closing_console
+def test2():
+    assert(True is False)
+
+# Fonction Main
+
+def main():
+    test1()
+    test2()
 
 # Initialisation de la fonction Main
 
